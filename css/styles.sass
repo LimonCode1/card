@@ -1,0 +1,42 @@
+$yellow: #d5ff61
+$red: #f55a2a
+$blue: #c4b9ff
+$darkCyan: hsl(185, 75%, 39%)
+$veryDarkDesaturatedBlue: hsl(229, 23%, 23%)
+$darkGrayishBlue: hsl(227, 10%, 46%)
+$darkGray: hsl(0, 0%, 59%)
+*
+    margin: 0
+    padding: 0
+body
+    // display: flex
+    // justify-content: center
+    // align-items: center
+    font-size: 18px
+    font-family: 'kumbh Sans', sans-serif
+    background: $darkGray
+    display: flex
+    justify-content: center
+    align-items: center
+    .container
+        // background: $yellow
+        width: 25%
+        // height: 120px
+        .card
+            background: $red
+            height: auto
+            width: 100%
+            border: none
+            border-radius: 10px
+            .image-top
+                width: 100%
+                height: 10rem
+                background: $yellow
+            .body
+                height: 13rem
+                background: $darkCyan
+                display: flex
+                justify-content: center
+    .attribution
+        display: none
+        background: $red
