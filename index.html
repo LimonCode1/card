@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
 
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
@@ -11,10 +10,9 @@
 			rel="stylesheet"
 		/>
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-		<link rel="stylesheet" href="css/styles.min.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<title>Frontend Mentor | Profile card component</title>
 
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 		<style>
 			.attribution {
 				font-size: 11px;
@@ -27,40 +25,38 @@
 		</style>
 	</head>
 	<body>
-		<div class="container">
+		<main class="container">
 			<div class="card">
-				<div class="image-top">
-					<img src="" alt="" />
+				<div class="card-img">
+					<img src="./images/bg-pattern-card.svg" alt="Fondo card" />
 				</div>
-				<div class="body">
-					<div class="profile">
-						<img src="images/image-victor.jpg" alt="profile picture" />
-					</div>
-					<div class="info">
+				<div class="card-body">
+					<img src="./images/image-victor.jpg" class="card-body-img" />
+					<div class="card-body-content">
 						<h1 class="name">Victor Crest <span class="age">26</span></h1>
-						<span class="city">Madrid</span>
 					</div>
+					<span class="card-body-city">London</span>
 				</div>
-				<div class="footer">
-					<div class="social">
-						<a href="#" class="number">80K</a>
-						<span class="social-text">Followers</span>
+				<div class="card-footer">
+					<div class="card-footer-social">
+						<h2 class="number">80k</h2>
+						<span class="text">Followers</span>
 					</div>
-					<div class="social">
-						<a href="#" class="number">803K</a>
-						<span class="social-text">Likes</span>
+					<div class="card-footer-social">
+						<h2 class="number">803k</h2>
+						<span class="text">Likes</span>
 					</div>
-					<div class="social">
-						<a href="#" class="number">1.4K</a>
-						<span class="social-text">Photos</span>
+					<div class="card-footer-social">
+						<h2 class="number">1.4k</h2>
+						<span class="text">Photos</span>
 					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 		<div class="attribution">
 			Challenge by
-			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-			Coded by <a href="https://github.com/LimonCode1" target="_blank">Carlos Andres Sanchez</a>.
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor </a>.
+			Coded by <a href="https://github.com/LimonCode1" target="_blank"> Carlos Andres Sanchez</a>.
 		</div>
 	</body>
 </html>

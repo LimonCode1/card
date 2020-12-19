@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'kumbh Sans', sans-serif;
+  background: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+body .container {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .card {
+  background: white;
+  max-width: 353px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.3);
+}
+
+body .card-img {
+  width: 100%;
+}
+
+body .card-body {
+  border-bottom: 1px solid #6a6f81;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card-body img {
+  border-radius: 50%;
+  margin-top: -55px;
+  border: 5px solid white;
+}
+
+body .card-body-content {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+}
+
+body .card-body-content .name {
+  font-weight: 700;
+}
+
+body .card-body-content .name .age {
+  font-weight: 300;
+}
+
+body .card-body-city {
+  font-weigth: 300;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+body .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+}
+
+body .card-footer-social {
+  text-align: center;
+}
+
+body .card-footer-social .text {
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+body .attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */
